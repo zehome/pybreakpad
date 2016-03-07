@@ -1,7 +1,7 @@
 HEADERS += cbreakpad.h
 SOURCES += cbreakpad.cpp
 
-BREAKPAD_PATH = /home/ed/breakpad/breakpad
+BREAKPAD_PATH = ../breakpad
 LIBS += $$BREAKPAD_PATH/src/client/linux/libbreakpad_client.a
 
 INCLUDEPATH += $$PWD
